@@ -171,8 +171,25 @@ X3 = 7.0
 
 **********************************************************************************
 
+> Método de Jacobi
 
+[Ejemplos de Método de Jacobi](https://github.com/AlanOrgazVillegas/MetodosNumericos_Tema3/tree/main/Jacobi%20-%205%20Ejemplos)
 
+La base del método consiste en construir una sucesión convergente definida iterativamente. El límite de esta sucesión es precisamente la solución del sistema. A efectos prácticos si el algoritmo se detiene después de un número finito de pasos se llega a una aproximación al valor de x de la solución del sistema.
 
+**Para resolverlo podemos seguir los siguientes pasos:**
++ Formular el sistema de ecuaciones lineales.
++ Descomponer la matriz de coeficientes.
++ Inicializar el vector de soluciones.
++ Iterar el proceso.
++ Repetir el proceso hasta convergencia.
++ Obtener la solución. 
 
+## _**Ejemplo**_  y  # _**Solución**_
+
+![Captura de pantalla (481)](https://github.com/AlanOrgazVillegas/MetodosNumericos_Tema3/assets/147757830/d2788552-d8fa-4166-9e6d-69745fbc4394)
+
+## Evidencia de trabajo en equipo
+
+![Captura de pantalla (480)](https://github.com/AlanOrgazVillegas/MetodosNumericos_Tema3/assets/147757830/0bcc0c5a-e3c7-4578-97cd-4f03d4fbd13c)
 
