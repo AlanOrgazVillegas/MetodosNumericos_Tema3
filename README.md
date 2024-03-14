@@ -71,6 +71,8 @@ El método de Gauss-Jordan utiliza operaciones con matrices para resolver sistem
 
 ![Captura-de-Pantalla-2021-11-09-a-las-11 25 27](https://github.com/AlanOrgazVillegas/MetodosNumericos_Tema3/assets/147757830/43e206f0-4d4e-488d-9d6f-22ac13605e63)
 
+# _**Solución**_
+
 Como primer paso dividimos el primer renglón R1 entre la componente a11:
 
 
@@ -111,12 +113,12 @@ Este método es una versión acelerada de Jácobi. En el cual es necesario conta
 + Repetir este proceso para las ecuaciones restantes, calculando siempre el valor de la incógnita con el coeficiente más grande en cada ecuación y usando los últimos valores calculados para las otras incógnitas.
 + Continuar iterando hasta que los valores de las incógnitas no cambien significativamente entre iteraciones.
 
+## _**Ejemplo**_
+
+Matriz a resolver
 
 
-
-
-
-
+# _**Solución**_
 
 
 
