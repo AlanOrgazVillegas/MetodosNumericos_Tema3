@@ -116,25 +116,60 @@ Este método es una versión acelerada de Jácobi. En el cual es necesario conta
 ## _**Ejemplo**_
 
 Matriz a resolver
+![Captura de pantalla (478)](https://github.com/AlanOrgazVillegas/MetodosNumericos_Tema3/assets/147757830/3122d1d1-7982-432a-8b0d-3ca5d5d92d83)
 
 
 # _**Solución**_
 
+Primero ordenamos las ecuaciones, de modo que en la diagonal principal esten los coeficientes mayores para asegurar la convergencia.
 
+![Captura de pantalla (479)](https://github.com/AlanOrgazVillegas/MetodosNumericos_Tema3/assets/147757830/0e53cfeb-3d4f-488f-a3f6-320a66384207)
 
+Despejamos cada una de las variables sobre la diagonal:
 
+![seidel6](https://github.com/AlanOrgazVillegas/MetodosNumericos_Tema3/assets/147757830/073b1345-d02d-46d1-9ebb-16753b78b0cf)
 
+Suponemos los valores iniciales X2 = 0 y X3 = 0 y calculamos X1
 
+![seidel7](https://github.com/AlanOrgazVillegas/MetodosNumericos_Tema3/assets/147757830/8f7a74ab-f7e8-4321-9d04-b6383796c68c)
 
+Este valor junto con el de X3 se puede utilizar para obtener X2
 
+![seidel8](https://github.com/AlanOrgazVillegas/MetodosNumericos_Tema3/assets/147757830/06f04fc3-4076-4ac4-807a-35d409f231f1)
 
+La primera iteración se completa sustituyendo los valores de X1 y X2 calculados obteniendo:
 
+![seidel9](https://github.com/AlanOrgazVillegas/MetodosNumericos_Tema3/assets/147757830/d062786a-dbe0-4abe-8e47-9d998160c5a6)
 
+En la segunda iteración, se repite el mismo procedimiento:
 
+![seidel10](https://github.com/AlanOrgazVillegas/MetodosNumericos_Tema3/assets/147757830/285ace0b-8c11-4840-bac5-480f343b7e1a)
 
+Comparando los valores calculados entre la primera y la segunda iteración
 
+![seidel11](https://github.com/AlanOrgazVillegas/MetodosNumericos_Tema3/assets/147757830/11493da9-a76c-4cbb-9231-d500b98c7d4b)
 
+Como podemos observar, no se cumple la condición
 
+![seidel12](https://github.com/AlanOrgazVillegas/MetodosNumericos_Tema3/assets/147757830/5d381ed5-74de-480b-971d-79fee0b94cd9)
+
+Entonces tomamos los valores calculados en la última iteración y se toman como supuestos para la siguiente iteración. Se repite entonces el proceso:
+
+![seidel13](https://github.com/AlanOrgazVillegas/MetodosNumericos_Tema3/assets/147757830/4cd9d686-c0d9-4cb2-9109-750f01ebf3bd)
+
+Comparando los valores obtenidos
+
+![seidel22](https://github.com/AlanOrgazVillegas/MetodosNumericos_Tema3/assets/147757830/09d24323-5a12-4185-969d-eba34833a9ca)
+
+Dado que se cumple la condición, el resultado es:
+
+X1 = 3.0
+
+X2 = -2.5
+
+X3 = 7.0
+
+**********************************************************************************
 
 
 
